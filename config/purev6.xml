@@ -1,0 +1,10 @@
+
+<network>
+  <name>purev6</name>
+  <bridge name='virbr6' stp='on' delay='0' />
+  <ip family='ipv6' address='2002:a135:484f:1111::1' prefix='64'>
+	<dhcp>
+		<range start="2002:a135:484f:1111::1000" end="2002:a135:484f:1111::2000" />
+	</dhcp>
+  </ip>
+</network>
